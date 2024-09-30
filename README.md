@@ -1,7 +1,9 @@
 # Loftee_Docker
 
 export LC_ALL=en_US.UTF-8
+
 export LANG=en_US.UTF-8
+
 export PERL5LIB=/LofteeTool/loftee:$PERL5LIB
 
 /LofteeTool/ensembl-vep/vep \
