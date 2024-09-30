@@ -1,13 +1,17 @@
 # Loftee_Docker
-#Download Files
-wget ftp://ftp.ensembl.org/pub/release-112/variation/vep/homo_sapiens_vep_112_GRCh38.tar.gz
-wget https://s3.amazonaws.com/bcbio_nextgen/human_ancestor.fa.gz
-wget https://s3.amazonaws.com/bcbio_nextgen/human_ancestor.fa.gz.fai
-wget https://s3.amazonaws.com/bcbio_nextgen/human_ancestor.fa.gz.gzi
-wget https://personal.broadinstitute.org/konradk/loftee_data/GRCh38/gerp_conservation_scores.homo_sapiens.GRCh38.bw
-wget https://personal.broadinstitute.org/konradk/loftee_data/GRCh37/phylocsf_gerp.sql.gz
+# Download Files
+wget ftp://ftp.ensembl.org/pub/release-112/variation/vep/homo_sapiens_vep_112_GRCh38.tar.gz #Cache file for human hg38
+wget https://s3.amazonaws.com/bcbio_nextgen/human_ancestor.fa.gz #Ancestry file
 
+wget https://s3.amazonaws.com/bcbio_nextgen/human_ancestor.fa.gz.fai #Ancestry file index
 
+wget https://s3.amazonaws.com/bcbio_nextgen/human_ancestor.fa.gz.gzi #Ancestry file Index 2
+
+wget https://personal.broadinstitute.org/konradk/loftee_data/GRCh38/gerp_conservation_scores.homo_sapiens.GRCh38.bw #Conservation file
+
+wget https://personal.broadinstitute.org/konradk/loftee_data/GRCh37/phylocsf_gerp.sql.gz #Sql database file
+ 
+# Command to Run
 export LC_ALL=en_US.UTF-8
 
 export LANG=en_US.UTF-8
