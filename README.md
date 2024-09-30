@@ -1,4 +1,12 @@
 # Loftee_Docker
+#Download Files
+wget ftp://ftp.ensembl.org/pub/release-112/variation/vep/homo_sapiens_vep_112_GRCh38.tar.gz
+wget https://s3.amazonaws.com/bcbio_nextgen/human_ancestor.fa.gz
+wget https://s3.amazonaws.com/bcbio_nextgen/human_ancestor.fa.gz.fai
+wget https://s3.amazonaws.com/bcbio_nextgen/human_ancestor.fa.gz.gzi
+wget https://personal.broadinstitute.org/konradk/loftee_data/GRCh38/gerp_conservation_scores.homo_sapiens.GRCh38.bw
+wget https://personal.broadinstitute.org/konradk/loftee_data/GRCh37/phylocsf_gerp.sql.gz
+
 
 export LC_ALL=en_US.UTF-8
 
