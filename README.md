@@ -13,7 +13,9 @@ wget https://personal.broadinstitute.org/konradk/loftee_data/GRCh37/phylocsf_ger
  
 # Command to Run
 singularity pull docker://dishasharma/loftee
+
 singularity exec --bind <WorkingDirPath> loftee_latest.sif /bin/bash
+
 
 export LC_ALL=en_US.UTF-8
 
